@@ -1,0 +1,15 @@
+name: hello-liquid-haskell
+version: 0.0.0.0
+
+ghc-options:
+  - -fplugin=LiquidHaskell
+  
+dependencies:
+  - liquid-ghc-prim
+  - liquid-base
+  - liquid-prelude
+  - liquid-containers
+  - liquidhaskell
+
+library:
+  source-dirs: src
