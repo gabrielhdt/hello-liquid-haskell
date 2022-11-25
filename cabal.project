@@ -5,13 +5,13 @@ write-ghc-environment-files: never
 source-repository-package
     type: git
     location: https://github.com/ucsd-progsys/liquidhaskell
-    tag: c06a3bb68c1bc83d2227158de0276713b83f13bb
+    tag: 02736ca97aa2f0ad1a83c2f757a769af7a95fb4b
     subdir: . liquid-base liquid-ghc-prim liquid-prelude liquid-containers
-    --sha256: 0afmw8q6kp7kdyrra1dqbhvzcrqynn8gqvf6arbri69s1vkw4bp4
+    --sha256: 1jc733wp7rlngnr2bk5034x6zrq3qp70vjiihp67y9j4nyvpyg1l
 
 source-repository-package
     type: git
     location: https://github.com/ucsd-progsys/liquid-fixpoint
-    tag: 98d21934ceda146b4280c73552cc387d0c497f56
-    --sha256: 10dglfzd501789b10rzi2gdb8068slhc64qm89ykdcycsk7did8k
+    tag: 64f1edd5ee5d6d8f4cf93286a89a08d22ac0f4bf
+    --sha256: 1v5is2sya05ipmxybdigm78cblhilbqcf90qj0i0gpx431vs41y9
 
